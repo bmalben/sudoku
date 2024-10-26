@@ -40,7 +40,7 @@ td{
   border: none;
   border-radius: 24px;
   font-size: 14px;
-  /* margin: 0px 20px; */
+  margin: 0px 20px;
 }
 .checkButton{
   background-color: tomato;
@@ -63,4 +63,7 @@ td{
 }
 .rBorder{
   border-right: 2px solid black;
+}
+.btn{
+  cursor: pointer;
 }
