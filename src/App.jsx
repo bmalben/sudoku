@@ -58,7 +58,8 @@ function App() {
     }else if(compare.isSolvable){
       alert("Keep Going...")
     }else{
-      alert("Game Over!! Sudoku can't be Solved...")
+      alert("Game Over!! Try Again...")
+      resetSudoku();
     }
   }
 
